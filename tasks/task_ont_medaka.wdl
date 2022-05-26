@@ -29,8 +29,8 @@ task read_filtering {
     File demultiplexed_reads
     String samplename
     String? run_prefix = "artic_ncov2019"
-    Int? min_length = 400
-    Int? max_length = 700
+    Int? min_length = 250
+    Int? max_length = 1500
     Int? cpu = 8
   }
   command <<<
